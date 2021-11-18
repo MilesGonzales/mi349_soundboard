@@ -8,16 +8,21 @@
     <title>Soundboard</title>
 </head>
 <body>
+    <audio src = "Sounds/bass.mp3" id = "bass"></audio>
+    <audio src = "Sounds/floorTom.mp3" id = "floorTom"></audio>
+    <audio src = "Sounds/hiHat.mp3" id = "hiHat"></audio>
+    <audio src = "Sounds/snare.mp3" id = "snare"></audio>
+
     <div class = "soundboard">
         <h1>Drumset Soundboard</h1>
         <ul class = "buttonList">
-            <li><button class = "snare">Snare Drum</button></li>
-            <li><button class = "bass">Bass Drum</button></li>
-            <li><button class = "hiHat">Hi-Hat</button></li>
-            <li><button class = "clap">Clap</button></li>
+            <li><button onClick="play(snare)" class = "snare">Snare Drum</button></li>
+            <li><button onClick="play(bass)" class = "bass">Bass Drum</button></li>
+            <li><button onClick="play(hiHat)" class = "hiHat">Hi-Hat</button></li>
+            <li><button onClick="play(FloorTom)" class = "floorTom">Floor Tom</button></li>
         </ul>
     </div>
 
-    
+    <script src = "soundboard.js"></script>
 </body>
 </html>
