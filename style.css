@@ -32,3 +32,8 @@ button {
     border: none;
     font-size: 30px;
 }
+
+.buttonList li :hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.3s;
+}
