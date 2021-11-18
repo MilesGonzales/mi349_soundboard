@@ -26,7 +26,7 @@ body {
     border-radius: 12px;
 }
 
-.button {
+button {
     background-color: #ffffb3;
     border: none;
     color: white;
