@@ -11,7 +11,7 @@ body {
     width: 800px;
     text-align: center;
 }
-.buttons {
+.buttonList {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,4 +21,8 @@ body {
     display: inline-block;
     width: 50 px;
     padding: 20px 10px;
+}
+
+button {
+    background-color: #ffffb3;
 }
