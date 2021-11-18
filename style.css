@@ -22,11 +22,11 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 12px;
 }
 
 button {
     background-color: #e6e600;
+    border-radius: 12px;
     Width: 300px;
     height: 100px;
     border: none;
