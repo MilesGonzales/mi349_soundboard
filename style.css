@@ -18,6 +18,11 @@ body {
 }
 
 .buttonList li{
+
+}
+
+.button {
+    background-color: #ffffb3;
     border: none;
     color: white;
     padding: 20px;
@@ -26,8 +31,4 @@ body {
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
-}
-
-button {
-    background-color: #ffffb3;
 }
