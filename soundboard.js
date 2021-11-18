@@ -1,3 +1,3 @@
-function play(sound){
-    var audio = document.getElementById(sound).play();
+function playSnare(){
+    var audio = document.getElementById("snare").play();
 }
